@@ -1,0 +1,713 @@
+*{
+    border:border-box;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    font-family:'Poppins',sans-serif;
+}
+.logo{
+    height:100vh;
+    width:100vw;
+    background-image:url(22d0adf9-ebbf-4410-8f71-382b99fef230.jpg);
+    background-size: 100vw 100vh;
+}
+nav{
+    height:10vh;
+    width:100vw;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(129, 236, 236);
+    padding-bottom:10px;
+}
+a{
+    font-size:20px;
+    text-decoration: none;
+    transition:0.5s;
+}
+.zj{
+    color:black;
+    font-size:170%;
+    margin-right:30%;
+    font-weight:800;
+    box-shadow: 0 0 0px #fff;
+    transition: box-shadow 0.8s ease-in-out;
+}
+.zj:hover {
+    box-shadow: 0 0 50px rgba(0,0, 255);
+  }
+span{
+    color:blue;
+}
+
+.name{
+    color:rgb(9, 88, 172);
+}
+.tree{
+    display:flex;
+    flex-direction: row-reverse;
+    height:90vh;
+    width:100vw;
+    
+}
+.tree .photo{
+    border-radius:50%;
+    margin-left:90px;
+    animation-delay:1.5s;
+    width:40vw;
+    height:90vh;
+}
+
+.content .shama{
+    margin-top:60px;
+    MARGIN-RIGHT:50PX;
+    animation-delay: 0.5s;
+}
+.content .n {
+    animation-delay: 1.5s;
+}
+.content{
+    text-align:left;
+    font-size:60px;
+    display:flex;
+    flex-direction:column;
+    align-items:left;
+    margin:100px;
+    font-weight:1000;
+    font-family:Arial, Helvetica, sans-serif;
+    height:90vh;
+    width:60vw;
+    color:white;
+    
+
+    
+}
+i{
+    color:blue;
+}
+.lo  {
+    width:339.2px;
+    margin-top:12px;
+    font-size:10px;
+    display:flex;
+    justify-content:space-between;
+    
+}
+.lo a{
+    font-size:40px;
+    transition:0.5s;
+    animation-delay: 1.5sec;
+}
+a:hover{
+    font-size:25px;
+    text-decoration:underline;
+    
+
+}
+.anime{
+    opacity:0;
+    transform:translateX(50px);
+    animation:moveright 0.5s linear forwards;
+}
+@keyframes moveright{
+    100%{
+        opacity:1;
+        transform:translateX(0px);
+    }
+}
+.anim{
+    opacity:0;
+    transform:translateY(30px);
+    animation:moveup 0.5s linear forwards;
+}
+@keyframes moveup{
+    100%{
+        opacity:1;
+        transform:translateY(0px);
+    }
+}
+
+.lo a:hover{
+    border:2px solid rgb(218, 204, 204);
+    border-radius:30px;
+    font-size:45px;
+    background-color:white;
+
+}
+.but{
+    background-color:blue;
+    width:150px;
+    height:50px;
+    border-radius:30px;
+    border-top-right-radius:0px;
+    margin-top:20px;
+    color:white;
+    animation-delay:1.5s;
+    box-shadow: 0 0 0px #fff;
+    transition: box-shadow 0.8s ease-in-out;
+}
+.but:hover{
+    color:black;
+    background-color:rgb(0, 0, 255);
+    width:155px;
+    height:55px;
+    border-top-right-radius:30px;
+    box-shadow: 0 0 50px rgba(0,0, 255);
+   
+
+}
+
+.new{
+    color:white;
+    text-decoration:none;
+    font-size:70px;
+    text-align:center;
+    font-weight: 600;
+    font-family:'Times New Roman';
+    HEIGHT:0vh;
+    width:100vw;
+    animation-delay:0.5s;
+    box-shadow: 0 0 0px #fff;
+    transition: box-shadow 0.8s ease-in-out;
+}
+.new:hover{
+    text-decoration:underline;
+    box-shadow: 0 0 50px rgba(0,0, 255);
+
+}
+.two{
+    margin:0px;
+    HEIGHT:100vh;
+    width:100vw;
+    background-image:url(22d0adf9-ebbf-4410-8f71-382b99fef230.jpg);
+    background-size:100vw 100vh;
+    animation-delay: 0.3s;
+}
+.photo{
+    animation-delay:0.5s;
+    box-shadow: 0 0 0px #fff;
+    transition: box-shadow 0.8s ease-in-out;
+
+}
+.photo:hover{
+    box-shadow: 0 0 50px rgba(0,0, 255);
+
+
+}
+
+.next{
+     display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-size:1600px 750px;
+    }
+.hd{
+    width:50vw;
+    height:90vh;
+    border-width: 2px;
+    BORDER-RADIUS:50px;
+    display:flex;
+    margin-top:150px;
+    margin-right:0px;
+    margin-left:170px;
+    margin-bottom:100px;
+    animation-delay: 1s;
+}
+    
+.ph{
+    animation-delay:0.5s;
+    box-shadow: 0 0 0px #fff;
+    transition: box-shadow 0.8s ease-in-out;
+}
+.ph:hover{
+    box-shadow: 0 0 50px rgba(0,0, 255);
+
+ }
+.ad{
+    width:50vw;
+    height:90vh;
+    font-size:80px;
+    display:flex;
+    flex-direction:column;
+    margin-top:200px;
+    align-items:left;
+    color:blue;
+    padding:0px;
+    animation-delay:1s
+
+   
+    
+    
+    
+}
+.gh{
+    font-size:30px;
+    font-weight:600;
+    color:white;
+    margin-bottom:0px;
+    animation-delay: 1s;
+}
+.text{
+    font-size:20px;
+    margin-top:10px;
+}
+
+.three{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    flex-direction:row;
+    background-image:url(22d0adf9-ebbf-4410-8f71-382b99fef230.jpg);
+    background-size:100vw 100vh;
+}
+.three .ct{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    padding:40px;
+    height:100vh;
+    width:50vw;
+    padding-left:15vw;
+    align-items:left;
+
+}
+.con{
+    font-family:"PROXIMA NOVA";
+    COLOR:white;
+    FONT-SIZE:70PX;
+    font-weight:550;
+    MARGIN-BOTTOM:40PX;
+    animation-delay: 0.5s;
+}
+.omega{
+    display:flex;
+    flex-direction: row;
+    color:black;
+    animation-delay: 0.5s;
+}
+.goblin{
+    display:flex;
+    flex-direction: row;
+    margin-top:30px;
+    color:black;
+    animation-delay: 0.5s;
+
+}
+.combo{
+    display:flex;
+    flex-direction:column;
+}
+.goblin span{
+    margin-right:15px;
+    font-size:20px;
+    color:white;
+}
+.goblin span:hover{
+    font-size:25px;
+}
+.omega span{
+    margin-right:15px;
+    color:white;
+    font-size:20px;
+}
+.omega span:hover{
+    font-size:25px;
+}
+.size{
+    font-size:20px;
+}
+.me{
+    display:flex;
+    flex-direction:row;
+    margin-top:40px;
+    margin-bottom:30px;
+}
+.me a{
+    margin-right:30px;
+    font-size:30px;
+}
+.me a:hover{
+    font-size:35px;
+}
+ .three .hector{
+    direction:flex;
+    flex-direction:column;
+    width:50vw;
+    height:100vh;
+    justify-content: center;
+    text-align:left;
+    padding:200px;
+    padding-left:0px;
+    
+}
+.name{
+    width:42vw;
+    height:6vh;
+    margin-bottom:10px;
+    padding:5px;
+    background-color: grey;
+    color:white;
+    animation-delay: 0.5s;
+    box-shadow: 0 0 0px #fff;
+    transition: box-shadow 0.8s ease-in-out;
+
+    
+}
+.name:hover{
+    border: 3px solid blue;
+    box-shadow: 0 0 30px rgba(255,255, 255);
+}
+.email{
+    width:42vw;
+    height:6vh;
+    margin-bottom:10px;
+    padding:5px;
+    background-color: grey;
+    color:white;
+    animation-delay: 0.5s;
+    box-shadow: 0 0 0px #fff;
+    transition: box-shadow 0.8s ease-in-out;
+    
+
+
+}
+.email:hover{
+    border: 3px solid blue;
+    box-shadow: 0 0 30px rgba(255,255, 255);
+}
+.suggest{
+    width:42vw;
+    height:40vh;
+    margin-bottom:10px;
+    padding:8px;
+    background-color: grey;
+    color:white;
+    animation-delay: 0.5s;
+    border: 2px solid white;
+    box-shadow: 0 0 0px #fff;
+    transition: box-shadow 0.8s ease-in-out;
+
+}
+.suggest:hover{
+    border: 3px solid blue;
+    box-shadow: 0 0 30px rgba(255,255, 255);
+}
+.four{
+    width:100vw;
+    height:100vh;
+    background-image:url(22d0adf9-ebbf-4410-8f71-382b99fef230.jpg) ;
+    background-size: 100vw 100vh;
+}
+.joker{
+    font-size:80px;
+    font-weight:550;
+    text-align:center;
+    color:white;
+    
+}
+.joker:hover{
+    text-decoration:underline;
+   
+}
+.but{
+    color:white;
+}
+.m{
+   color:blue;
+   font-family:"PROXIMA NOVA";
+   FONT-SIZE:70PX;
+    font-weight:550;
+    animation-delay: 0.5s;
+   
+}
+.pabar{
+    height:80vh;
+    width:100vw;
+    display: flex;
+    flex-direction: row;
+}
+.bar{
+    width:50vw;
+    height:80vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+}
+.a{
+    width:40vw;
+    height:20px;
+    background-color: white;
+    margin-top:20px;
+    border-radius:30px;
+    box-shadow: 0 0 0px #fff;
+    transition: box-shadow 0.8s ease-in-out;
+}
+.a:hover{
+    box-shadow: 0 0 30px rgba(0,0, 255);
+}
+.b{
+    width:40vw;
+    height:20px;
+    background-color: blue;
+    border-radius:30px;
+}
+.c{
+    font-size:30px;
+    text-align:left;
+    font-family:"PROXIMA NOVA";
+    color:white;
+    animation-delay: 0.5s;
+    box-shadow: 0 0 0px #fff;
+    transition: box-shadow 0.8s ease-in-out;
+
+}
+.c:hover{
+    box-shadow: 0 0 30px rgba(0,0, 255);
+}
+.d{
+    margin-bottom:30px;
+}
+.e{
+    width:40vw;
+    height:20px; 
+    background-color: blue;
+    border-radius:30px;
+}
+.f{
+    width:25vw;
+    height:20px; 
+    background-color: blue;
+    border-radius:30px;
+}
+.g{
+    width:30vw;
+    height:20px; 
+    background-color: blue;
+    border-radius:30px;
+}
+.my{
+    font-family:"PROXIMA NOVA";
+   FONT-SIZE:70PX;
+    font-weight:550;
+    color:white;
+}
+.abar{
+    width:40vw;
+    height:80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    margin-left:50px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.bbar{
+    width:50vw;
+    height:40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    padding:10px;
+}
+.cbar{
+    width:15vw;
+    height:30vh;
+    background-color: black;
+    background-image:url(ht.png);
+    background-size:15vw 30vh;
+    box-shadow: 0 0 0px #fff;
+    transition: box-shadow 0.8s ease-in-out;
+}
+.cbar:hover{
+    box-shadow: 0 0 30px rgba(0,0, 255);
+}
+
+.dbar{
+    width:15vw;
+    height:30vh;
+    background-color: black;
+    background-image:url(cs.png);
+    background-size:15vw 30vh;
+    box-shadow: 0 0 0px #fff;
+    transition: box-shadow 0.8s ease-in-out;
+}
+.dbar:hover{
+    box-shadow: 0 0 30px rgba(0,0, 255);
+}
+.ebar{
+    width:50vw;
+    height:40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left:10px;
+    margin-right:20px;
+    
+
+}
+.fbar{
+    width:15vw;
+    height:30vh;
+    background-color: black;
+    background-image:url(gh.png);
+    background-size:15vw 30vh;
+    box-shadow: 0 0 0px #fff;
+    transition: box-shadow 0.8s ease-in-out;
+    
+}
+.fbar:hover{
+    box-shadow: 0 0 30px rgba(0,0, 255);
+}
+.gbar{
+    width:15vw;
+    height:30vh;
+    background-color: black;
+    background-image:url(zx.png);
+    background-size:15vw 30vh;
+    box-shadow: 0 0 0px #fff;
+    transition: box-shadow 0.8s ease-in-out;
+}
+.g:hover{
+    box-shadow: 0 0 30px rgba(0,0, 255);
+}
+
+
+
+
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+    .content, .ad, .combo {
+        font-size: 50px; /* Smaller font size for smaller screens */
+        margin: 50px; /* Adjust margin */
+    }
+
+    .photo, .tree .photo {
+        width: 50vw; /* Reduce image size */
+        height: 50vh;
+    }
+
+    .new {
+        font-size: 50px; /* Smaller text */
+    }
+
+    .joker, .m {
+        font-size: 60px; /* Adjust for screens between 992px and 1200px */
+    }
+
+    .bar, .a {
+        width: 30vw; /* Adjust progress bar width */
+    }
+
+    .next, .tree {
+        flex-direction: column; /* Stack layout vertically */
+    }
+}
+
+@media (max-width: 992px) {
+    .content, .ad, .combo {
+        font-size: 40px; /* Adjust font sizes */
+        margin: 30px;
+    }
+
+    .photo, .tree .photo {
+        width: 60vw; /* Image width adjustment */
+        height: 60vh;
+    }
+
+    .new {
+        font-size: 40px; /* Text size for medium screens */
+    }
+
+    .joker, .m {
+        font-size: 50px;
+    }
+
+    .bar, .a {
+        width: 25vw;
+    }
+
+    .next, .tree {
+        flex-direction: column; /* Stack layout vertically */
+    }
+
+    nav {
+        flex-direction: column; /* Stack nav items */
+    }
+
+    .zj {
+        margin-right: 10%;
+    }
+}
+
+@media (max-width: 768px) {
+    .content, .ad, .combo {
+        font-size: 30px; /* Adjust font sizes for smaller screens */
+        margin: 20px;
+    }
+
+    .photo, .tree .photo {
+        width: 70vw; /* Further reduce image size */
+        height: 50vh;
+    }
+
+    .new {
+        font-size: 35px; /* Adjust text size */
+    }
+
+    .joker, .m {
+        font-size: 40px; /* Adjust title size */
+    }
+
+    .bar, .a {
+        width: 20vw;
+    }
+
+    .name, .email, .suggest {
+        width: 80vw; /* Full width on smaller screens */
+    }
+
+    .next, .tree, nav {
+        flex-direction: column; /* Stack everything vertically */
+    }
+}
+
+@media (max-width: 576px) {
+    .content, .ad, .combo {
+        font-size: 25px; /* Further adjust font sizes */
+        margin: 10px;
+    }
+
+    .photo, .tree .photo {
+        width: 80vw; /* Image size for small screens */
+        height: 40vh;
+    }
+
+    .new {
+        font-size: 30px; /* Text size for small screens */
+    }
+
+    .joker, .m {
+        font-size: 35px;
+    }
+
+    .bar, .a {
+        width: 15vw;
+    }
+
+    .name, .email, .suggest {
+        width: 90vw;
+    }
+
+    .next, .tree, nav {
+        flex-direction: column;
+    }
+
+    .logo {
+        height: 60vh; /* Adjust the logo section */
+    }
+}
